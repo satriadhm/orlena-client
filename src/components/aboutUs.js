@@ -1,4 +1,5 @@
 import "../styles/AboutUs.css";
+import logo from "../public/images/logo.png";
 import fudge1 from "../public/images/fudge1.png";
 import fudge2 from "../public/images/fudge2.png";
 import fudge3 from "../public/images/fudge3.png";
@@ -103,6 +104,9 @@ return (
                 </a>
             </div>
         </div>
+        <div className="menu-direct">
+      <img src={logo} alt="Logo" className="logo" />
+      </div>
     </div>
 );
 }

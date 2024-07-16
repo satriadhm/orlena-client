@@ -4,6 +4,7 @@ import "../styles/Menu.css";
 import menu1 from "../public/images/MENU ORLENA I.jpg";
 import menu2 from "../public/images/MENU ORLENA II.jpg";
 import menu3 from "../public/images/MENU ORLENA III.jpg";
+import logo from "../public/images/logo.png";
 const Menu = () => {
   return (
     <div className="menu-page">
@@ -24,7 +25,11 @@ const Menu = () => {
         <img src={menu2} alt=''></img>
         <img src={menu3} alt=''></img>
       </div>
+      <div className="menu-direct">
+      <img src={logo} alt="Logo" className="logo" />
+      </div>
     </div>
+    
   );
 };
 
