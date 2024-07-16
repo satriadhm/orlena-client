@@ -10,18 +10,18 @@ import Contact from "./components/contact";
 
 function App() {
   return (
-      <div className="App">
-        <Navbar />
-        <div className="container">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/aboutus" element={<AboutUs/>} />
-            <Route path="/menu" element={<Menu />} />
-            <Route path="/contact" element = {<Contact />} />
-          </Routes>
-        </div>
-        <Footer />
+    <div className="App">
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
+      <Footer />
+    </div>
   );
 }
 

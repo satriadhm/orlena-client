@@ -1,8 +1,8 @@
 // File path: src/components/Home.js
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import "../App.css";
 import foto2 from "../public/images/foto2.png";
-import { Link } from "react-router-dom";
 import GridContainer from "./gridContainer";
 import MenuDirect from "./menuDirect";
 import logoGrab from "../public/images/grab-logo-7020E74857-seeklogo.com.png";
@@ -15,9 +15,17 @@ function Home() {
       <div className="landing">
         <h1>Bites of Happiness</h1>
         <h3>The Fudge Brownies in Bali</h3>
-        <Link to="/aboutus#branches">
-          <button>Branches</button>
-        </Link>
+        <button>
+          <Link
+            smooth
+            to="/aboutus#target"
+            scroll={(el) =>
+              el.scrollIntoView({ behavior: "smooth", block: "start" })
+            }
+          >
+            Branches
+          </Link>
+        </button>
       </div>
       <div className="description">
         <div className="image-container">
