@@ -2,6 +2,7 @@
 import React from "react";
 import "../App.css";
 import foto2 from "../public/images/foto2.png";
+import { Link } from "react-router-dom";
 import GridContainer from "./gridContainer";
 import MenuDirect from "./menuDirect";
 import logoGrab from "../public/images/grab-logo-7020E74857-seeklogo.com.png";
@@ -14,9 +15,9 @@ function Home() {
       <div className="landing">
         <h1>Bites of Happiness</h1>
         <h3>The Fudge Brownies in Bali</h3>
-        <button>
-          <a href="#branches">Branches</a>
-        </button>
+        <Link to="/aboutus#branches">
+          <button>Branches</button>
+        </Link>
       </div>
       <div className="description">
         <div className="image-container">

@@ -69,11 +69,11 @@ return (
             <img src={pastry7} alt="Pastry 7" />
             <img src={pastry8} alt="Pastry 8" />
         </div>
-        <div name="branches" className="aboutus-header">
+        <div className="aboutus-header">
             <h1>Our Branches</h1>
         </div>
-        <div  className="branches-container">
-            <div className="branches-content">
+        <div    className="branches-container">
+            <div id="branches" className="branches-content">
                 <img src={branchPadangSambian} alt="Branch Padang Sambian" />
                 <a href="https://goo.gl/maps/WGGTpBris26YrqLM8" target="_blank" rel="noopener noreferrer">
                     <button> ORLENALYCIOUS <br /> Padang Sambian</button>
