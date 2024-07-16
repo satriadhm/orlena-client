@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Contact.css";
 import logo from "../public/images/logo.png";
+import axios from 'axios';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -19,9 +20,16 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Kirim data formData ke backend di sini
-    console.log("Form Data:", formData);
-    // Implementasi kirim ke backend bisa dilakukan menggunakan fetch atau library seperti Axios
+  
+    axios.post('http://localhost:5000/send-email', formData)
+      .then(response => {
+        console.log('Success:', response.data);
+        alert('Email sent successfully');
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        alert('Error sending email');
+      });
   };
 
   return (
