@@ -7,7 +7,7 @@
   }
   
   .see-more-button {
-    margin-top: 80px; /* Menggeser tombol ke bawah */
+    margin-top: 20px; /* Menggeser tombol ke bawah */
     background-color: #F27180; /* Warna pink tua */
     color: white; /* Warna teks putih */
     font-size: xx-large;
@@ -20,7 +20,8 @@
   }
   
   .logo {
-    max-width: 100px; /* Mengatur ukuran maksimum logo */
+    padding-top: 40px;
+    max-width: 200px; /* Mengatur ukuran maksimum logo */
     margin-top: 10px; /* Jarak dari tombol ke logo */
   }
   

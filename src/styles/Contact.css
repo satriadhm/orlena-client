@@ -1,16 +1,32 @@
 .contact-container {
     font-family: "SeoulNamsan CBL", sans-serif;
     color: #4c0507;
+    margin-bottom: 20px; 
   }
   
   .contact-header,
   .email-header,
   .whatsapp-header {
     font-size: 1.8rem;
-    margin-bottom: 10px;
     color: #4c0507;
   }
-  
+ 
+  .whatsapp-header {
+    font-size: 1.5rem;
+  }
+
+  .whatsapp-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .whatsapp-header p {
+    font-size: 1.5rem;
+    margin-top: 0; /* Hapus margin atas yang mungkin bawaan dari browser */
+  }
+
   .email-header {
     font-size: 1.5rem;
   }
@@ -20,6 +36,7 @@
     padding-top: 50px;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 50px;
     flex-direction: column;
     gap: 50px;
   }
@@ -92,15 +109,5 @@
   .form-submit:hover {
     background-color: #dfb9b9;
     color: #4c0507;
-  }
-  
-  .whatsapp-container {
-    display: flex;
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 50px;
-    flex-direction: column;
-    gap: 50px;
   }
   

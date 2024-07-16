@@ -119,6 +119,11 @@
   font-family: "Times New Roman", sans-serif; /* Font family */
 }
 
+.landing button a {
+  text-decoration: none;
+  color: white;
+}
+
 .landing button:hover {
   background-color: #d48689;
 }
