@@ -152,8 +152,8 @@
 .best-selling img {
   max-width: 100px; /* Set the maximum width for logos */
   height: auto;
+  border-radius: 10%;
 }
-
 
 @font-face {
   font-family: "SeoulNamsan CBL";

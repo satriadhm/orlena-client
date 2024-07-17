@@ -5,7 +5,7 @@ import "../App.css";
 import foto2 from "../public/images/foto2.png";
 import GridContainer from "./gridContainer";
 import MenuDirect from "./menuDirect";
-import logoGrab from "../public/images/grab-logo-7020E74857-seeklogo.com.png";
+import logoGrab from "../public/images/grab-logo.png";
 import logoGojek from "../public/images/Gofood-logo.png";
 import shopeeFood from "../public/images/shopeefood.png";
 
@@ -63,7 +63,7 @@ function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={logoGrab} alt="Grab logo" />
+              <img  src={logoGrab} alt="Grab logo" />
             </a>
           </div>
           <div className="best-selling">
@@ -72,7 +72,7 @@ function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={logoGojek} alt="Gojek logo" />
+              <img  src={logoGojek} alt="Gojek logo" />
             </a>
           </div>
           <div className="best-selling">
